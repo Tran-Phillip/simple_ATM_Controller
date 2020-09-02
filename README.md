@@ -5,7 +5,7 @@
 ### Requirements 
 - Docker 
 ------
-First clone the repo. Then type
+First clone the repo and navigate to the folder. Then type
 ```
 docker build . -t <your tag name> 
 ```
@@ -28,7 +28,9 @@ python3 ATM_Unit_Test_suite.py -v
 ```
 It should run all the tests for you.
 
-The main file is Controller.py, and that contains the class definitions and methods for our controller class. You can mess around with that file however you want as long as you are inside the container.
+------
+
+The main file is Controller.py, and that contains the class definitions and methods for our controller class. You can mess around with that file however you want as long as you are inside the container. The test suite is in the aptly named ATM_Unit_Test_Suite.py if you want to look at my tests. 
 
 ## test_card_pins.txt
 ---
