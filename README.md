@@ -17,7 +17,7 @@ docker run -it <your tag name>
 
 ## Test Webserver 
 ----
-To test the controller, I made a little spoof webserver in Go that pretends to be a backend. I know I didn't need to do this, but I am a very visual person and I really prefer seeing my code execute. The dockerfile automatically starts the test web server, (using localhost:8080) so don't worry about that file.
+To test the controller, I made a little spoof webserver in Go that pretends to be a backend. I know I didn't need to do this, but I am a very visual person and I really prefer seeing my code execute. 
 
 ## Usage 
 ------
